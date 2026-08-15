@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-label="Dipin Sunny GitHub profile header">
+  <defs>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED">
+        <animate attributeName="stop-color" values="#7C3AED;#22D3EE;#10B981;#7C3AED" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#22D3EE">
+        <animate attributeName="stop-color" values="#22D3EE;#10B981;#7C3AED;#22D3EE" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981;#7C3AED;#22D3EE;#10B981" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="glow1">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="26"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-opacity=".22"/>
+    </filter>
+    <clipPath id="clip"><rect x="10" y="10" width="1160" height="590" rx="28"/></clipPath>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#F8FAFC" stroke-opacity=".025"/>
+    </pattern>
+  </defs>
+
+  <rect width="1180" height="610" rx="28" fill="#030712"/>
+  <g clip-path="url(#clip)">
+    <rect x="10" y="10" width="1160" height="590" rx="28" fill="#0F172A" stroke="rgba(255,255,255,.10)"/>
+    <rect x="10" y="10" width="1160" height="590" fill="url(#grid)"/>
+
+    <circle cx="140" cy="90" r="220" fill="url(#glow1)" filter="url(#blur)">
+      <animate attributeName="cx" values="140;250;140" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1060" cy="500" r="240" fill="url(#glow2)" filter="url(#blur)">
+      <animate attributeName="cy" values="500;420;500" dur="12s" repeatCount="indefinite"/>
+    </circle>
+
+    <g opacity=".55">
+      <circle cx="75" cy="160" r="2" fill="#22D3EE"><animate attributeName="cy" values="160;145;160" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="1040" cy="105" r="2" fill="#10B981"><animate attributeName="cy" values="105;120;105" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="1090" cy="470" r="2" fill="#7C3AED"><animate attributeName="cx" values="1090;1070;1090" dur="6s" repeatCount="indefinite"/></circle>
+      <circle cx="520" cy="560" r="2" fill="#22D3EE"><animate attributeName="cy" values="560;545;560" dur="4.5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- left ASCII / terminal portrait -->
+    <rect x="55" y="72" width="390" height="466" rx="22" fill="#030712" fill-opacity=".55" stroke="rgba(255,255,255,.10)" filter="url(#shadow)"/>
+    <text x="82" y="108" font-family="monospace" font-size="13" fill="#94A3B8">$ whoami</text>
+    <text x="82" y="137" font-family="monospace" font-size="18" font-weight="700" fill="#22D3EE">dipin2004</text>
+    <text x="82" y="168" font-family="monospace" font-size="13" fill="#94A3B8">$ profile --animate</text>
+
+    <g font-family="monospace" font-size="16" font-weight="700" fill="url(#accent)">
+      <text x="90" y="220">        ████████        </text>
+      <text x="90" y="242">      ████████████      </text>
+      <text x="90" y="264">     ███  ████  ███     </text>
+      <text x="90" y="286">     ███████████████     </text>
+      <text x="90" y="308">      ████████████      </text>
+      <text x="90" y="330">       ██████████       </text>
+      <text x="90" y="352">        ████████        </text>
+      <text x="90" y="374">      ████████████      </text>
+      <text x="90" y="396">     ███  ████  ███     </text>
+      <text x="90" y="418">    ████████████████    </text>
+    </g>
+    <g opacity=".55" stroke="#22D3EE">
+      <line x1="75" y1="205" x2="425" y2="205">
+        <animate attributeName="y1" values="205;445;205" dur="5s" repeatCount="indefinite"/>
+        <animate attributeName="y2" values="205;445;205" dur="5s" repeatCount="indefinite"/>
+      </line>
+    </g>
+    <text x="82" y="470" font-family="monospace" font-size="13" fill="#94A3B8">$ status: building + learning</text>
+    <text x="82" y="498" font-family="monospace" font-size="13" fill="#10B981">AI &amp; Automation Testing</text>
+    <rect x="82" y="514" width="8" height="17" fill="#22D3EE">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- right content -->
+    <text x="490" y="105" font-family="Arial, sans-serif" font-size="17" fill="#94A3B8">Hi 👋</text>
+    <text x="490" y="151" font-family="Arial, sans-serif" font-size="44" font-weight="800" fill="#F8FAFC">I'm Dipin Sunny</text>
+    <rect x="490" y="176" width="570" height="2" fill="url(#accent)" opacity=".8">
+      <animate attributeName="x" values="490;520;490" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <g font-family="monospace" font-size="18" fill="#22D3EE">
+      <text x="490" y="220">&gt; AI &amp; Automation Testing<span fill="#F8FAFC">_</span></text>
+      <text x="490" y="220" opacity=".8"><animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/>▌</text>
+    </g>
+
+    <g font-family="Arial, sans-serif">
+      <text x="490" y="270" font-size="14" fill="#94A3B8">📍 Location</text>
+      <text x="650" y="270" font-size="16" fill="#F8FAFC">Kerala</text>
+      <text x="490" y="308" font-size="14" fill="#94A3B8">🎓 Education</text>
+      <text x="650" y="308" font-size="16" fill="#F8FAFC">Viswajyothi College of Engineering</text>
+      <text x="490" y="346" font-size="14" fill="#94A3B8">🎯 Current Focus</text>
+      <text x="650" y="346" font-size="16" fill="#F8FAFC">AI &amp; Automation Testing</text>
+    </g>
+
+    <text x="490" y="395" font-family="Arial, sans-serif" font-size="14" fill="#94A3B8">SKILLS</text>
+    <g font-family="Arial, sans-serif" font-size="14" fill="#F8FAFC">
+      <g>
+        <rect x="490" y="412" width="78" height="34" rx="17" fill="#7C3AED" fill-opacity=".18" stroke="#7C3AED" stroke-opacity=".5"/>
+        <text x="529" y="434" text-anchor="middle">Python</text>
+      </g>
+      <g>
+        <rect x="578" y="412" width="68" height="34" rx="17" fill="#22D3EE" fill-opacity=".18" stroke="#22D3EE" stroke-opacity=".5"/>
+        <text x="612" y="434" text-anchor="middle">Java</text>
+      </g>
+      <g>
+        <rect x="656" y="412" width="70" height="34" rx="17" fill="#10B981" fill-opacity=".18" stroke="#10B981" stroke-opacity=".5"/>
+        <text x="691" y="434" text-anchor="middle">HTML</text>
+      </g>
+      <g>
+        <rect x="736" y="412" width="62" height="34" rx="17" fill="#7C3AED" fill-opacity=".18" stroke="#7C3AED" stroke-opacity=".5"/>
+        <text x="767" y="434" text-anchor="middle">CSS</text>
+      </g>
+      <g>
+        <rect x="808" y="412" width="105" height="34" rx="17" fill="#22D3EE" fill-opacity=".18" stroke="#22D3EE" stroke-opacity=".5"/>
+        <text x="860" y="434" text-anchor="middle">JavaScript</text>
+      </g>
+      <g>
+        <rect x="923" y="412" width="57" height="34" rx="17" fill="#10B981" fill-opacity=".18" stroke="#10B981" stroke-opacity=".5"/>
+        <text x="951" y="434" text-anchor="middle">Git</text>
+      </g>
+      <g>
+        <rect x="990" y="412" width="57" height="34" rx="17" fill="#7C3AED" fill-opacity=".18" stroke="#7C3AED" stroke-opacity=".5"/>
+        <text x="1018" y="434" text-anchor="middle">SQL</text>
+      </g>
+    </g>
+
+    <g font-family="monospace" font-size="13" fill="#94A3B8">
+      <text x="490" y="490">github.com/dipin2004</text>
+      <text x="490" y="518">building projects • learning • exploring AI</text>
+    </g>
+
+    <!-- border shimmer -->
+    <rect x="10" y="10" width="1160" height="590" rx="28" fill="none" stroke="url(#accent)" stroke-width="2" stroke-dasharray="90 900" opacity=".7">
+      <animate attributeName="stroke-dashoffset" from="0" to="-990" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
